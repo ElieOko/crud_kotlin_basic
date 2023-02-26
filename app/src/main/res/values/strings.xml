@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">crudkt</string>
+    <string name="date">Date de naissance</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="promo">Promotion</string>
+    <string name="genre">Genre</string>
+    <string name="profil">Profil</string>
+    <string name="action">Action</string>
+    <string name="create">Enregistrer</string>
+    <string name="read">Lecture</string>
+    <string name="update">Modification</string>
+    <string name="delete">Supprimer</string>
+
+</resources>
