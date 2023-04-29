@@ -11,5 +11,16 @@
     <string name="read">Lecture</string>
     <string name="update">Modification</string>
     <string name="delete">Supprimer</string>
-
+    <string name="require">Ce champs ne peut être vide</string>
+    <string name="age">Age</string>
+    <string name="testPromo">L1 A/Jour</string>
+    <string name="mail">elieoko100@gmail.com</string>
+    <string name="contact">+243827824163</string>
+    <string name="github">github/ElieOko</string>
+    <string name="title_contact">Contact</string>
+    <string name="dev">Developer freelance</string>
+    <string name="dev_name">Oko Elie</string>
+    <string name="doctor">Nduda Luamba Joseph</string>
+    <string name="titre_doctor">Docteur en informatique</string>
+    <string name="toutkin">Toutkin</string>
 </resources>

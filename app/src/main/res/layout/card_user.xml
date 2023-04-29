@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_centerInParent="true"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="180dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation ="10dp"
+            android:layout_marginTop="25dp"
+            card_view:cardCornerRadius ="5dp"
+            app:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="23dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/dev_name"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#5C5A5A"
+                    android:text="@string/dev"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="98dp"
+        android:elevation="5dp"
+        android:padding="5dp"
+        app:shapeAppearanceOverlay="@style/circular"
+        android:src="@drawable/kt_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_height="98dp"/>
+</RelativeLayout>
